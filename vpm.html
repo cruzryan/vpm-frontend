@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>vpm</title>
+    <link rel="icon" href="./favicon.png">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./mobile.css">
+    
+</head>
+<body>
+    <div class="top-highlight"></div>
+    <div class="main-container">
+
+
+        <div class="top">
+            <div class="package-counter">
+                <img src="./assets/package.png">
+                <h3>33,230 <span>packages</span></h3>
+            </div>
+            <div class="top-buttons">
+                <button>Login</button>
+                <button onclick="window.location = './upload/upload.html'">Upload</button>
+            </div>
+        </div>
+
+        <div class="center">
+            <img src="./assets/vpm.png" alt="VPM Logo">
+            <div class="search">
+                <input id="searchinput" type="text" placeholder='Search package'/>
+                <div onclick="window.location = `./search/search.html?${document.getElementById('searchinput').value}`" class="img-container cursorptr">
+                    <img src="./assets/search.png"/>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bottom">
+            <div class="bottom-a">
+                <br/>
+                <h1>Most downloaded</h1>
+
+                <h2 onclick="window.location = './package/package.html?regex'">regex</h2>
+                <h2 onclick="window.location = './package/package.html?mathplot'">mathplot</h2>
+                <h2 onclick="window.location = './package/package.html?vgui'">vgui</h2>
+                <h2 onclick="window.location = './package/package.html?tensorflow'">tensorflow</h2>
+                <h2 onclick="window.location = './package/package.html?firebase'">firebase</h2>
+            </div>
+            <div class="div2">
+                <br>
+                <h1>Categories</h1>
+                <div class="bottom-b">
+                    <h2 onclick="window.location = './category/category.html?Authentication'">Authentication</h2>
+                    <h2 onclick="window.location = './category/category.html?Caching'">Caching</h2>
+                    <h2 onclick="window.location = './category/category.html?Compression'">Compression</h2>
+                    <h2 onclick="window.location = './category/category.html?Cryptography'">Cryptography</h2>
+                    <h2 onclick="window.location = './category/category.html?Databases'">Databases</h2>
+                    <h2 onclick="window.location = './category/category.html?Development'">Development</h2>
+                    <h2 onclick="window.location = './category/category.html?Encoding'">Encoding</h2>
+                    <h2 onclick="window.location = './category/category.html?GUI'">GUI</h2>
+                    <h2 onclick="window.location = './category/category.html?Games'">Games</h2>
+                    <h2 onclick="window.location = './category/category.html?Graphics'">Graphics</h2>
+                    <h2 onclick="window.location = './category/category.html?MachineLearning'">Machine Learning</h2>
+                    <h2 onclick="window.location = './category/category.html?Mathematics'">Mathematics</h2>
+                    <h2 onclick="window.location = './category/category.html?Networking'">Networking</h2>
+                    <h2 onclick="window.location = './category/category.html?Sound'">Sound</h2>
+                    <h2 onclick="window.location = './category/category.html?Testing'">Testing</h2>
+                    <h2 onclick="window.location = './category/category.html?Video'">Video</h2>
+                    <h2 onclick="window.location = './category/category.html?WebAssembly'">Web Assembly</h2>
+                    <h2 onclick="window.location = './category/category.html?i18n'">i18n</h2>
+                    <h2 onclick="window.location = './category/category.html?Other'">Other</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

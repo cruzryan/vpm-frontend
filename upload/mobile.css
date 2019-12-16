@@ -1,0 +1,20 @@
+/*
+    For mobile / tablet screens
+*/
+
+@media only screen and (max-width: 768px) {
+    
+
+    .upload{
+        position: absolute;
+        height: 100vh;
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5vw;
+        margin-top: 2vh;
+    }
+    
+
+}

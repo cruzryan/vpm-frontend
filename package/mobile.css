@@ -1,0 +1,12 @@
+/*
+    For mobile / tablet screens
+*/
+
+@media only screen and (max-width: 768px) {
+    
+    .package{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+}

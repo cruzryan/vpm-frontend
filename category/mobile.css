@@ -1,0 +1,27 @@
+/*
+    For mobile / tablet screens
+*/
+
+@media only screen and (max-width: 768px) {
+    
+    .header div{
+        width: 100%;
+        margin-top: 0px;
+        padding-top: 1em;
+        padding-bottom: 0.5em;
+    }
+
+    .header div h1{ font-size: 21px; }
+
+    .header div img{
+        width: 45px;
+        height: 50px;
+        padding: 0px;
+    }
+
+    .package{
+        width: 85%;
+    }
+    
+
+}

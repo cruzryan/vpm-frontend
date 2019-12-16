@@ -1,0 +1,32 @@
+/*
+    For mobile / tablet screens
+*/
+
+@media only screen and (max-width: 768px) {
+    
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .search input{
+        width: 100%;
+    }
+
+    .results{
+        text-align: center;
+        margin-top: 2em;
+    }
+
+    .packages{
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+    .package{
+        width: 90%;
+    }
+}
