@@ -41,6 +41,11 @@ body{
     width: 100vw;
 }
 
+.logo{
+    position: absolute;
+    z-index: 10;
+}
+
 img{
     max-width: 225px;
     max-height: 215.2px;
